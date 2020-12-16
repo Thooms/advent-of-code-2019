@@ -18,8 +18,17 @@ type Segment struct {
 }
 
 func debugDrawSegments(vs, hs []Segment) {
+	// find boundaries
 	minX, maxX, minY, maxY := 0, 0, 0, 0
-	for _, v := range vs
+	for _, v := range vs {
+		if v.StartY < minY {
+			minY = v.StartY
+		}
+		if v.EndY < minY {
+
+		}
+
+	}
 }
 
 // returns -1 if they do not cross
