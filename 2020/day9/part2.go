@@ -54,7 +54,4 @@ func main() {
 	}
 
 _found:
-
-	//fmt.Println(sums)
-
 }
